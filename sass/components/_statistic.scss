@@ -1,0 +1,33 @@
+.statistic__list {
+  display: flex;
+  gap: 140px;
+}
+
+.statistic__item {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  @include font-settings(16px, $gray900, 400, 1.6);
+
+  &:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    top: 26px;
+    right: -66px;
+    transform: translateX(100%);
+
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+    background-color: $primary;
+  }
+}
+
+.statistic__number {
+  margin-right: 12px;
+
+  @include font-settings(46px, false, 900, 1.3);
+}

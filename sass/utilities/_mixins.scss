@@ -1,0 +1,41 @@
+@mixin position-center($position: absolute) {
+  position: $position;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin push-auto {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+@mixin pseudo($display: block, $pos: absolute) {
+  content: '';
+  display: $display;
+  position: $pos;
+}
+
+@mixin font-settings($size: false, $color: false, $weight: false, $lh: false, $ls: false) {
+  @if $size {
+    font-size: $size;
+  }
+  @if $color {
+    color: $color;
+  }
+  @if $weight {
+    font-weight: $weight;
+  }
+  @if $lh {
+    line-height: $lh;
+  }
+  @if $ls {
+    letter-spacing: $ls;
+  }
+}
+
+@mixin transition($property: all) {
+  transition: $property 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

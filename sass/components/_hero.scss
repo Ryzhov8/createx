@@ -1,0 +1,38 @@
+.hero {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 80px;
+
+  background: url(../../images/home/shapes.png),
+    linear-gradient(55.95deg, rgba(255, 63, 58, 0.2) 0%, rgba(247, 94, 5, 0.2) 100%);
+
+  &__wrapper {
+    display: flex;
+    gap: 180px;
+
+    margin-bottom: 189px;
+  }
+
+  &__interactive {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    @include font-settings(14px, $gray900, 700, 1.5);
+  }
+
+  &__title {
+    width: 496px;
+    margin-bottom: 60px;
+
+    @include font-settings(64px, $gray900, 900, 1.3, 1px);
+  }
+
+  & .button--outline {
+    margin-right: 24px;
+  }
+}

@@ -1,0 +1,19 @@
+.certificate {
+  margin-top: 120px;
+
+  &__container {
+    display: flex;
+    gap: 120px;
+  }
+
+  &__text {
+    margin: 48px 0px 32px;
+
+    @include font-settings(16px, $gray800, 400, 1.6);
+  }
+
+  &__list {
+    display: flex;
+    gap: 40px;
+  }
+}

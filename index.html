@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Createx</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/x-icon.png" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body id="1">
+    <header class="header">
+      <div class="container header__container">
+        <nav class="nav">
+          <a href="./index.html">
+            <img
+              class="logo"
+              srcset="./images/header/img-1.png 1x, ./images/header/img-1_@2x.png 2x"
+              src="./images/header/img-1.png"
+              alt="logo"
+              width="130px"
+              loading="lazy"
+            />
+          </a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Courses</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Events</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__wrapper">
+          <button class="button button--solid button--large" type="button">Get consultation</button>
+          <a href="" class="header__reg">
+            <!-- <svg class="reg__icon">
+            <use></use>
+          </svg> -->
+            <span class="reg__text">Log in / Register</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__content">
+              <div class="hero__interactive">
+                <button class="play-button" type="button">
+                  <!-- <svg class="button__icon">
+                  <use></use>
+                </svg> -->
+                </button>
+                <p class="hero__text">Play showreel</p>
+              </div>
+              <h1 class="hero__title">Enjoy studying with Createx Online Courses</h1>
+              <button
+                class="button button--large button--outline"
+                type="button"
+                data="About us"
+              ></button>
+              <button class="button button--large button--solid" type="button">
+                Explore courses
+              </button>
+            </div>
+            <img
+              class="hero__image"
+              srcset="./images/home/hero/img-1.png 1x, ./images/home/hero/img-1_@2x.png 2x"
+              src="./images/home/hero/img-1.png"
+              alt="The girl at the desk"
+              loading="lazy"
+              width="602px"
+              height="501px"
+            />
+          </div>
+          <div class="statistic">
+            <ul class="statistic__list">
+              <li class="statistic__item">
+                <span class="statistic__number">1200</span> Students graduated
+              </li>
+              <li class="statistic__item">
+                <span class="statistic__number">84</span> Completed courses
+              </li>
+              <li class="statistic__item">
+                <span class="statistic__number">16</span> Qualified tutors
+              </li>
+              <li class="statistic__item">
+                <span class="statistic__number">5</span> Years of experience
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container about__container">
+          <img
+            class="about__image"
+            srcset="./images/home/about/img-1.jpg 1x, ./images/home/about/img-1_@2x.jpg 2x"
+            src="./images/home/about/img-1.jpg"
+            alt="Operator"
+            width="705"
+            loading="lazy"
+          />
+          <div class="about__content">
+            <div class="heading heading--left">
+              <p class="heading__uppertext">Who we are</p>
+              <h1 class="heading__title">Why Createx?</h1>
+            </div>
+            <ul class="about__list">
+              <li class="about__item">
+                A fermentum in morbi pretium aliquam adipiscing donec tempus.
+              </li>
+              <li class="about__item">Vulputate placerat amet pulvinar lorem nisl.</li>
+              <li class="about__item">
+                Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.
+              </li>
+              <li class="about__item">Etiam duis lobortis in fames ultrices commodo nibh.</li>
+              <li class="about__item">Tincidunt sagittis neque sem ac eget.</li>
+              <li class="about__item">
+                Ultricies amet justo et eget quisque purus vulputate dapibus tortor.
+              </li>
+            </ul>
+            <button class="button button--solid button--regular" type="button">
+              More about us
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="courses">
+        <div class="container">
+          <div class="courses__wrapper">
+            <div class="heading">
+              <p class="heading__uppertext">Ready to learn?</p>
+              <h2 class="heading__title">Featured Courses</h2>
+            </div>
+            <button class="button button--outline button--large" data="View all courses"></button>
+          </div>
+          <ul class="card-set">
+            <li class="card card--horizontal">
+              <a href="#">
+                <img
+                  class="card__image"
+                  srcset="
+                    ./images/home/courses/img-1.jpg     1x,
+                    ./images/home/courses/img-1_@2x.jpg 2x
+                  "
+                  src="./images/home/courses/img-1.jpg"
+                  alt="Human"
+                  width="214"
+                  loading="lazy"
+                />
+                <div class="card__content">
+                  <p class="card__badge card__badge--green">Marketing</p>
+                  <p class="card__text">The Ultimate Google Ads Training Course</p>
+                  <p class="card__info"><span class="card__price">$100</span> by Jerome Bell</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="card card--horizontal">
+              <a href="#">
+                <img
+                  class="card__image"
+                  srcset="
+                    ./images/home/courses/img-2.jpg     1x,
+                    ./images/home/courses/img-2_@2x.jpg 2x
+                  "
+                  src="./images/home/courses/img-2.jpg"
+                  alt="Human"
+                  width="214"
+                  loading="lazy"
+                />
+                <div class="card__content">
+                  <p class="card__badge card__badge--blue">Management</p>
+                  <p class="card__text">Prduct Management Fundamentals</p>
+                  <p class="card__info"><span class="card__price">$480</span> by Marvin McKinney</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="card card--horizontal">
+              <a href="#">
+                <img
+                  class="card__image"
+                  srcset="
+                    ./images/home/courses/img-3.jpg     1x,
+                    ./images/home/courses/img-3_@2x.jpg 2x
+                  "
+                  src="./images/home/courses/img-3.jpg"
+                  alt="Human"
+                  width="214"
+                  loading="lazy"
+                />
+                <div class="card__content">
+                  <p class="card__badge card__badge--orange">HR & Recruting</p>
+                  <p class="card__text">HR Management and Analytics</p>
+                  <p class="card__info">
+                    <span class="card__price">$200</span> by Leslie Alexander Li
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="card card--horizontal">
+              <a href="#">
+                <img
+                  class="card__image"
+                  srcset="
+                    ./images/home/courses/img-4.jpg     1x,
+                    ./images/home/courses/img-4_@2x.jpg 2x
+                  "
+                  src="./images/home/courses/img-4.jpg"
+                  alt="Human"
+                  width="214"
+                  loading="lazy"
+                />
+                <div class="card__content">
+                  <p class="card__badge card__badge--green">Marketing</p>
+                  <p class="card__text">Brand Management & PR Communications</p>
+                  <p class="card__info"><span class="card__price">$530</span> by Kristin Watson</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="card card--horizontal">
+              <a href="#">
+                <img
+                  class="card__image"
+                  srcset="
+                    ./images/home/courses/img-5.jpg     1x,
+                    ./images/home/courses/img-5_@2x.jpg 2x
+                  "
+                  src="./images/home/courses/img-5.jpg"
+                  alt="Human"
+                  width="214"
+                  loading="lazy"
+                />
+                <div class="card__content">
+                  <p class="card__badge card__badge--blue">Management</p>
+                  <p class="card__text">Business Development Management</p>
+                  <p class="card__info"><span class="card__price">$400</span> by Dianne Russell</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="card card--horizontal">
+              <a href="#">
+                <img
+                  class="card__image"
+                  srcset="
+                    ./images/home/courses/img-6.jpg     1x,
+                    ./images/home/courses/img-6_@2x.jpg 2x
+                  "
+                  src="./images/home/courses/img-6.jpg"
+                  alt="Human"
+                  width="214"
+                  loading="lazy"
+                />
+                <div class="card__content">
+                  <p class="card__badge card__badge--pink">Design</p>
+                  <p class="card__text">Graphic Design Basic</p>
+                  <p class="card__info"><span class="card__price">$500</span> by Guy Hawkins</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- <section class="benefits">
+        <div class="container">
+          <div class="heading heading--center">
+            <p class="heading__uppertext">Our benefits</p>
+            <h2 class="heading__title">That’s how we do it</h2>
+          </div>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <svg class="benefits__icon">
+                <use></use>
+              </svg>
+              Experienced Tutors
+            </li>
+            <li class="benefits__item">
+              <svg class="benefits__icon">
+                <use></use>
+              </svg>
+              Feedback & Support
+            </li>
+            <li class="benefits__item">
+              <svg class="benefits__icon">
+                <use></use>
+              </svg>
+              24/7 Online Library
+            </li>
+            <li class="benefits__item">
+              <svg class="benefits__icon">
+                <use></use>
+              </svg>
+               Community
+            </li>
+          </ul>
+        <div class="benefits__content">
+          <div class="benefits__wrapper">
+            <h3 class="section-subtitle">Only practicing tutors</h3>
+            <p class="section-text">
+              Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse.
+              Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit
+              diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id
+              dignissim massa ut amet. Amet enim, nisi tempus vehicula.
+            </p>
+          </div>
+          <img
+            class="benefits__image"
+            srcset="./images/home/benefits/img-1.png 1x, ./images/home/benefits/img-1_@2x.png 2x"
+            src="./images/home/benefits/img-1.png"
+            alt="Students are studying"
+            width="600"
+            loading="lazy"
+          />
+        </div>
+      </section> -->
+      <!-- <section class="events">
+        <div class="container">
+          <div class="heading heading--center">
+            <p class="heading__uppertext">Our Events</p>
+            <h2 class="heading__title">Lectures & workshops</h2>
+          </div>
+          <ul class="events__list">
+            <li class="events__item"></li>
+            <li class="events__item"></li>
+            <li class="events__item"></li>
+          </ul>
+          <div class="wrapper">
+            <p>Do you want more?</p>
+            <button class="button" type="button">Explore all events</button>
+          </div>
+        </div>
+      </section> -->
+      <section class="certificate">
+        <div class="container certificate__container">
+          <div class="content">
+            <div class="heading heading--left">
+              <p class="heading__uppertext">Createx Certificate</p>
+              <h2 class="heading__title">Your expertise will be confirmed</h2>
+            </div>
+            <p class="certificate__text">
+              We are accredited by international professional organizations and institutes:
+            </p>
+            <ul class="certificate__list">
+              <li class="certificate__item">
+                <img
+                  class="certificate__logo"
+                  srcset="
+                    ./images/home/certificate/img-1.png     1x,
+                    ./images/home/certificate/img-1_@2x.png 2x
+                  "
+                  src="./images/home/certificate/img-1.png"
+                  alt="Company logo"
+                  width="105"
+                  loading="lazy"
+                />
+              </li>
+              <li class="certificate__item">
+                <img
+                  class="certificate__logo"
+                  srcset="
+                    ./images/home/certificate/img-2.png     1x,
+                    ./images/home/certificate/img-2_@2x.png 2x
+                  "
+                  src="./images/home/certificate/img-2.png"
+                  alt="Company logo"
+                  width="105"
+                  loading="lazy"
+                />
+              </li>
+              <li class="certificate__item">
+                <img
+                  class="certificate__logo"
+                  srcset="
+                    ./images/home/certificate/img-3.png     1x,
+                    ./images/home/certificate/img-3_@2x.png 2x
+                  "
+                  src="./images/home/certificate/img-3.png"
+                  alt="Company logo"
+                  width="105"
+                  loading="lazy"
+                />
+              </li>
+            </ul>
+          </div>
+          <img
+            class="certificate__image"
+            srcset="
+              ./images/home/certificate/img-4.png     1x,
+              ./images/home/certificate/img-4_@2x.png 2x
+            "
+            src="./images/home/certificate/img-4.png"
+            alt="Certificate"
+            width="705"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <div class="heading">
+            <p class="heading__uppertext">Best tutors are all here</p>
+            <h2 class="heading__title">Meet our team</h2>
+          </div>
+          <ul class="team__list">
+            <li class="team__item">
+              <div class="team__wrapper">
+                <img
+                  class="team__image"
+                  srcset="./images/home/team/img-1.png 1x, ./images/home/team/img-1_@2x.png 2x"
+                  src="./images/home/team/img-1.png"
+                  alt="Dlane Russel"
+                  width="245"
+                  loading="lazy"
+                />
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a class="socials__link" href="">
+                      <!-- <svg class="social__icon">
+                        <use></use>
+                      </svg> -->
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a class="socials__link" href="">
+                      <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a class="socials__link" href="">
+                      <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="team__name">Dianne Russell</p>
+              <p class="team__position">Founder and CEO</p>
+            </li>
+            <li class="team__item">
+              <img
+                class="team__image"
+                srcset="./images/home/team/img-2.png 1x, ./images/home/team/img-2_@2x.png 2x"
+                src="./images/home/team/img-2.png"
+                alt="Jerome Bell"
+                width="245"
+                loading="lazy"
+              />
+              <ul class="socials">
+                <li class="socials__item">
+                  <a class="socials__link" href="">
+                    <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="">
+                    <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="">
+                    <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                  </a>
+                </li>
+              </ul>
+              <p class="team__name">Jerome Bell</p>
+              <p class="team__position">Founder and Program Director</p>
+            </li>
+            <li class="team__item">
+              <img
+                class="team__image"
+                srcset="./images/home/team/img-3.png 1x, ./images/home/team/img-3_@2x.png 2x"
+                src="./images/home/team/img-3.png"
+                alt="Kristin Watson"
+                width="245"
+                loading="lazy"
+              />
+              <ul class="socials">
+                <li class="socials__item">
+                  <a class="socials__link" href="">
+                    <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="">
+                    <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="">
+                    <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                  </a>
+                </li>
+              </ul>
+              <p class="team__name">Kristin Watson</p>
+              <p class="team__position">Marketer, Curator of Marketing Course</p>
+            </li>
+            <li class="team__item">
+              <img
+                class="team__image"
+                srcset="./images/home/team/img-4.png 1x, ./images/home/team/img-4_@2x.png 2x"
+                src="./images/home/team/img-4.png"
+                alt="Marvin McKinney"
+                width="245"
+                loading="lazy"
+              />
+              <ul class="socials">
+                <li class="socials__item">
+                  <a class="socials__link" href="">
+                    <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="">
+                    <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="">
+                    <!-- <svg class="social__icon">
+                      <use></use>
+                    </svg> -->
+                  </a>
+                </li>
+              </ul>
+              <p class="team__name">Marvin McKinney</p>
+              <p class="team__position">PM, Curator of Management Course</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="container">
+          <div class="heading heading--center">
+            <p class="heading__uppertext">TESTIMONIALS</p>
+            <h2 class="heading__title">What our students say</h2>
+          </div>
+          <div class="testimonial">
+            <p class="testimonial__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam
+              viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id
+              turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros.
+              Pulvinar neque pharetra arcu diam maecenas diam integer in.
+            </p>
+            <div class="user">
+              <img class="user__image" src="" alt="" />
+              <p class="user__name">Eleanor Pena</p>
+              <p class="user__position">Position, Course</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container">
+          <div class="heading">
+            <p class="heading__uppertext">Our blog</p>
+            <h2 class="heading__title">Latest posts</h2>
+          </div>
+          <button class="button" type="button">Go to blog</button>
+          <ul class="blog__list">
+            <li class="blog__item">
+              <img class="blog__image" src="" alt="" />
+              <div class="badge">
+                <svg class="badge__icon">
+                  <use></use>
+                </svg>
+                <p class="badge__text">Podcast</p>
+              </div>
+              <div class="blog__meta"></div>
+            </li>
+            <li class="blog__item"></li>
+            <li class="blog__item"></li>
+          </ul>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="container">
+          <div class="heading heading--center">
+            <p class="heading__uppertext">Don’t miss anything</p>
+            <h2 class="heading__title">Subscribe to the Createx School announcements</h2>
+          </div>
+          <form class="subscribe__form">
+            <input type="email" name="mail" placeholder="Your working email" autocomplete="on" />
+            <button class="button" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__content">
+          <a href="#">
+            <img
+              class="logo"
+              srcset="./images/header/img-1.png 1x, ./images/header/img-1_@2x.png 2x"
+              src="./images/header/img-1.png"
+              alt="logo"
+              width="130"
+              loading="lazy"
+            />
+          </a>
+          <p class="footer__text">
+            Createx Online School is a leader in online studying. We have lots of courses and
+            programs from the main market experts. We provide relevant approaches to online
+            learning, internships and employment in the largest companies in the country.
+          </p>
+          <ul class="socialss socials--large">
+            <li class="socials__item--large">
+              <!-- <svg class="socials__icon--large">
+                <use></use>
+              </svg> -->
+            </li>
+            <li class="socials__item--large">
+              <!-- <svg class="socials__icon--large">
+                <use></use>
+              </svg> -->
+            </li>
+            <li class="socials__item--large">
+              <!-- <svg class="socials__icon--large">
+                <use></use>
+              </svg> -->
+            </li>
+            <li class="socials__item--large">
+              <!-- <svg class="socials__icon--large">
+                <use></use>
+              </svg> -->
+            </li>
+            <li class="socials__item--large">
+              <!-- <svg class="socials__icon--large">
+                <use></use>
+              </svg> -->
+            </li>
+            <li class="socials__item--large">
+              <svg class="socials__icon--large">
+                <use></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__site-map">
+          <h2 class="site-map__title">SITE MAP</h2>
+          <ul class="site-map__list">
+            <li class="site-map__item">
+              <a href="./about.html" class="site-map__link">About Us</a>
+            </li>
+            <li class="site-map__item">
+              <a href="./courses.html" class="site-map__link">Courses</a>
+            </li>
+            <li class="site-map__item">
+              <a href="./events.html" class="site-map__link">Events</a>
+            </li>
+            <li class="site-map__item">
+              <a href="./blog.html" class="site-map__link">Blog</a>
+            </li>
+            <li class="site-map__item">
+              <a href="./contacts.html" class="site-map__link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__courses">
+          <h2 class="courses__title">COURSES</h2>
+          <ul class="courses__list">
+            <li class="courses__item">
+              <a href="#" class="courses__link">About Us</a>
+            </li>
+            <li class="courses__item">
+              <a href="#" class="courses__link">Courses</a>
+            </li>
+            <li class="courses__item">
+              <a href="#" class="courses__link">Events</a>
+            </li>
+            <li class="courses__item">
+              <a href="#" class="courses__link">Blog</a>
+            </li>
+            <li class="courses__item">
+              <a href="#" class="courses__link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <h2 class="contacts__title">CONTACT US</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a href="tel:(405)555-0128" class="contacts__link">(405) 555-0128</a>
+            </li>
+            <li class="contacts__item">
+              <a href="mailto:hello@createx.com" class="contacts__link">hello@createx.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__subscribe">
+          <h2 class="subscripe__title">SIGN UP TO OUR NEWSLETTER</h2>
+          <form class="subscribe__form--black">
+            <input type="email" name="mail" placeholder="Email address" autocomplete="on" />
+            <button class="button" type="submit">
+              <svg class="subscripe__icon">
+                <use></use>
+              </svg>
+            </button>
+          </form>
+          <p class="subscripe__text">
+            *Subscribe to our newsletter to receive communications and early updates from Createx
+            SEO Agency.
+          </p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &#169; All rights reserved. Made with
+          <svg>
+            <use></use>
+          </svg>
+          by Createx Studio
+        </p>
+        <a class="footer__link" href="#1">GO TO TOP</a>
+      </div>
+    </footer>
+  </body>
+</html>

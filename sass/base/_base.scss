@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+  background-color: $white;
+  font-family: 'Lato', sans-serif;
+  color: $gray900;
+}
+
+.container {
+  width: 1260px;
+  @include push-auto;
+  padding: 0px 15px;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
